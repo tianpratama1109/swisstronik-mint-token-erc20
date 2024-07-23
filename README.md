@@ -1,15 +1,5 @@
 # Swisstronik Tesnet Techinal Task 2
 
-link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
-
-Feel free donate to my EVM address
-
-EVM :
-
-```bash
-0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE
-```
-
 ## Steps
 
 ### 1. Clone Repository
@@ -28,9 +18,9 @@ cd swisstronik-erc20-mint-token
 npm install
 ```
 
-### 3. Set .env File
+### 3. Set Up .env File
 
-create .env file in root project
+Create a .env file in the root of the project:
 
 ```bash
 PRIVATE_KEY="your private key"
@@ -38,9 +28,9 @@ PRIVATE_KEY="your private key"
 
 ### 4. Create Smart Contract
 
-- Open contract folder
-- Create Token.sol file
-- Copy this code and paste there
+- Open the contract folder
+- Create a Token.sol file
+- Copy and paste the following code, modifying the token name and symbol as needed:
 - Feel free to modify token name and token symbol
 
 ```
@@ -93,7 +83,7 @@ npm run check-supply
 npm run balance-of
 ```
 
-### 10. Tranfer Token
+### 10. Transfer Tokens
 
 ```bash
 npm run transfer
@@ -101,12 +91,6 @@ npm run transfer
 
 ### 11. Finsihed
 
-- Open the deployed-adddress.ts (location in utils folder)
-- Copy the address and paste the address in testnet dashboard
-- push this project to your github and paste your repository link in testnet dashboard
-
-by :
-github : [Mnuralim](https://github.com/Mnuralim)
-twitter : @Izzycracker04
-telegram : @fitriay19
-//0x37401D115bC52bBdaa59Df7f7e021523b020F98f
+- Open the deployed-address.ts file (located in the utils folder)
+- Copy the address and paste it into the testnet dashboard
+- Push this project to your GitHub and paste your repository link into the testnet dashboard

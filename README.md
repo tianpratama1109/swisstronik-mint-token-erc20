@@ -5,7 +5,7 @@
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/Mnuralim/swisstronik-erc20-mint-token.git
+git clone https://github.com/tianpratama1109/swisstronik-mint-token-erc20.git
 ```
 
 ```
